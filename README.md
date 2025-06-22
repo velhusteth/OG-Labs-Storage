@@ -1,15 +1,15 @@
-# 🤖 0G Storage Auto Bot
+# 0G Storage Auto Bot
 
-### ✨ Tính năng chính
+### Tính năng chính
 
-- 🔑 **Chạy nhiều ví**: Chạy tác vụ trên nhiều private key tuần tự
-- 🌐 **Proxy**: Sử dụng proxy xoay vòng để tránh giới hạn tốc độ
-- 🔄 **Xoay vòng User-Agent**: Tự động thay đổi user agent cho mỗi request
-- 📊 **Thống kê chi tiết**: Theo dõi các hoạt động thành công và thất bại
-- 📝 **Lịch sử giao dịch**: Lưu tất cả chi tiết giao dịch để tham khảo sau này
-- ⚡ **Tự động xử lý nếu gặp lỗi**: Tự động xử lý lỗi rate limit và retry
+-  **Chạy nhiều ví**: Chạy tác vụ trên nhiều private key tuần tự
+-  **Proxy**: Sử dụng proxy xoay vòng để tránh giới hạn tốc độ
+-  **Xoay vòng User-Agent**: Tự động thay đổi user agent cho mỗi request
+-  **Thống kê chi tiết**: Theo dõi các hoạt động thành công và thất bại
+-  **Lịch sử giao dịch**: Lưu tất cả chi tiết giao dịch để tham khảo sau này
+-  **Tự động xử lý nếu gặp lỗi**: Tự động xử lý lỗi rate limit và retry
 
-## 🚀 Cài đặt
+##  Cài đặt
 
 ### Yêu cầu hệ thống
 
@@ -52,7 +52,7 @@ http://ip:port
 socks5://username:password@ip:port
 ```
 
-## 🎯 Cách sử dụng
+##  Cách sử dụng
 
 ### Chạy bot
 
@@ -124,7 +124,7 @@ How many files to upload per wallet? 10
 - Không chạy quá nhiều instance cùng lúc
 - Đảm bảo kết nối mạng ổn định
 
-## 📊 Thống kê
+##  Thống kê
 
 Bot auto:
 
