@@ -2,12 +2,12 @@
 
 ### ✨ Tính năng chính
 
-- 🔑 **Hỗ trợ đa ví**: Chạy tác vụ trên nhiều private key tuần tự
-- 🌐 **Tích hợp proxy**: Sử dụng proxy xoay vòng để tránh giới hạn tốc độ
+- 🔑 **Chạy nhiều ví**: Chạy tác vụ trên nhiều private key tuần tự
+- 🌐 **Proxy**: Sử dụng proxy xoay vòng để tránh giới hạn tốc độ
 - 🔄 **Xoay vòng User-Agent**: Tự động thay đổi user agent cho mỗi request
 - 📊 **Thống kê chi tiết**: Theo dõi các hoạt động thành công và thất bại
 - 📝 **Lịch sử giao dịch**: Lưu tất cả chi tiết giao dịch để tham khảo sau này
-- ⚡ **Xử lý lỗi thông minh**: Tự động xử lý lỗi rate limit và retry
+- ⚡ **Tự động xử lý nếu gặp lỗi**: Tự động xử lý lỗi rate limit và retry
 
 ## 🚀 Cài đặt
 
@@ -20,21 +20,17 @@
 ### Bước cài đặt
 
 ```bash
-# Clone repository
-git clone https://github.com/vikitoshi/0g-Storage-Auto-Bot.git
-
-# Di chuyển vào thư mục
-cd 0g-Storage-Auto-Bot
+# Tải repo này về mở lên bằng VSC hoặc Cursor
 
 # Cài đặt dependencies
 npm install
 ```
 
-## ⚙️ Cấu hình
+## ⚙️ Config
 
-### 1. Cấu hình Private Keys
+### 1. Set private key
 
-Tạo file `.env` trong thư mục gốc với private keys của bạn:
+Tạo file `.env`:
 
 ```env
 # Cho một ví
@@ -46,7 +42,7 @@ PRIVATE_KEY_2=your_second_private_key
 PRIVATE_KEY_3=your_third_private_key
 ```
 
-### 2. Cấu hình Proxy (Tùy chọn)
+### 2. Thêm proxy
 
 Tạo file `proxies.txt` với một proxy trên mỗi dòng:
 
@@ -72,7 +68,7 @@ Khi được nhắc, nhập số lượng file bạn muốn tải lên cho mỗi
 $ node index.js
 
 --------------------------------------------
- 0G Storage Scan Auto Bot - Airdrop Insiders
+ 0G Storage Scan Auto Bot - 0xVelhust
 --------------------------------------------
 
 [✅] Loaded 2 private key(s)
@@ -146,9 +142,13 @@ Bot auto:
 
 ---
 
-<div align="center">
+## ỦNG HỘ MÌNH CỐC CF NẾU BẠN THÍCH SCRIPT NÀY
 
-**⭐ Nếu dự án này hữu ích, hãy cho chúng tôi một ngôi sao! ⭐**
+- **EVM:** 0x70A5a4ede89ED613307d255659a1dD837D9418a1
+- **SOL:** AwXQn61FFabdV4iDjzCNTHtx2yanGDiEEh7KY4MKVZS2
+- **SUI:** 0xc99395ead375fe240f0edd28acb12e3360ffe1e83bbd1d782b3208fc57fe338c
 
-</div>
+Cho mình xin một follow và một star nhé, cảm ơn bạn đã ủng hộ mình, chúc bạn cày Airdrop vui vẻ và nhớ bảo vệ tải sản của mình một cách cẩn thận nhé!
+
+**</velhust/>**
 
