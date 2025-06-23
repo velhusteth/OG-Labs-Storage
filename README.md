@@ -65,7 +65,7 @@ Khi được nhắc, nhập số lượng file bạn muốn tải lên cho mỗi
 ### Ví dụ sử dụng
 
 ```bash
-$ node index.js
+$ node index.obf.js
 
 --------------------------------------------
  0G Storage Scan Auto Bot - 0xVelhust
