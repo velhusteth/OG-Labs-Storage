@@ -57,7 +57,7 @@ socks5://username:password@ip:port
 ### Chạy bot
 
 ```bash
-node index.js
+node index.obf.js
 ```
 
 Khi được nhắc, nhập số lượng file bạn muốn tải lên cho mỗi ví.
